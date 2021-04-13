@@ -1,0 +1,7 @@
+<div class="event-list">
+    <div class="row">
+        <h3><b>Upcoming events</b></h3>
+        <button mat-button (click)="routeToNewEvent()">New Event</button>
+    </div>
+    <app-event-item *ngFor="let event of events; let i = index" [event] = "event" ></app-event-item>
+</div>

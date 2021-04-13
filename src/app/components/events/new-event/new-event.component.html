@@ -1,0 +1,47 @@
+<div class="new-event">
+    <h3><b>New Event</b></h3>
+    <form [formGroup]="eventForm" class="example-form">
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <mat-form-field>
+                        <mat-label>Event Name</mat-label>
+                        <input  formControlName="eventName" matInput  placeholder="Event Name"  name="name"  required>
+                    </mat-form-field>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <mat-form-field>
+                        <mat-label>Event description</mat-label>
+                        <textarea formControlName="eventDesc" rows="4" matInput></textarea>
+                    </mat-form-field>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <mat-form-field>
+                        <mat-label>Location</mat-label>
+                        <input  matInput formControlName="location" placeholder="Location"  name="location"  required>
+                    </mat-form-field>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Choose a date</mat-label>
+                        <input formControlName="eventDate" matInput [matDatepicker]="picker">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button mat-stroked-button (click)="cancel()" color="primary" class="cancel">Cancel</button>
+                    <button mat-stroked-button (click)="save()" color="primary" class="save">Save</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

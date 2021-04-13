@@ -1,0 +1,30 @@
+
+.carousel-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.about{
+    width: 97%;
+    margin: 20px auto;
+    background: #fffefe;
+    padding: 20px;
+    border: 1px solid #a7a7a7;
+    border-radius: 16px;
+    line-height: 2em;
+    overflow: hidden;
+    -webkit-box-shadow: 0 8px 5px -5px #777;
+    -moz-box-shadow: 0 8px 5px -5px #777;
+    box-shadow: 0 8px 5px -5px #777;
+}
+
+.about h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.about p{
+    text-align: justify;
+}

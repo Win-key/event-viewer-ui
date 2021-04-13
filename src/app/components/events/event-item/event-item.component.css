@@ -1,0 +1,26 @@
+.event-item{
+    width: 90%;
+    height: 60px;
+    margin-top: 10px;
+    background: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    -webkit-box-shadow: 0 8px 5px -5px #777;
+    -moz-box-shadow: 0 8px 5px -5px #777;
+    box-shadow: 0 8px 5px -5px #777;
+    display: flex;
+}
+
+.event-item  h3{
+    width: 20%;
+}
+.event-item  .desc{
+    width: 40%;
+}
+.event-item .loc{
+    width: 20%;
+}
+.event-item .date{
+    width: 20%;
+}

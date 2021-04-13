@@ -1,0 +1,38 @@
+.new-event{
+    margin: 7% auto;
+    margin-bottom: 0;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    background: #efefef;
+    -webkit-box-shadow: 0 8px 5px -5px #777;
+    -moz-box-shadow: 0 8px 5px -5px #777;
+    box-shadow: 0 8px 5px -5px #777;
+}
+
+.new-event table{
+    width: 80%;
+    margin: auto;
+}
+
+.new-event table .mat-form-field{
+    width: 100%;
+}
+
+.new-event button{
+    margin-left: 5px;
+    width: 30%;
+    -webkit-box-shadow: 0 8px 5px -5px #777;
+    -moz-box-shadow: 0 8px 5px -5px #777;
+    box-shadow: 0 8px 5px -5px #777;
+}
+
+.new-event .save{
+    background-color: #333333;
+    color: #fff;
+}
+
+.new-event .cancel{
+    background-color: #dedede;
+    color: #333333;
+}
